@@ -1,0 +1,68 @@
+.absolute-button-group {
+    padding: 20px !important;
+    padding-left: 30px !important; 
+    padding-right: 30px !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 0px 5px 0px black;
+    position: absolute;
+    top: 30px;
+    right:50px;
+    z-index: 1000;
+}
+
+.dashboard-cards {
+    height: 35vh; 
+    width: 25vw;
+    position: absolute;
+    left: 7vw;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 0px #a5a5a5; 
+}
+
+#card1 {
+    top: 20vh;
+}
+
+#card2 {
+    top: 60vh;
+}
+
+.heading-content {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
+
+.green-status {
+    font-weight: bold;
+    color: #3dce77;
+}
+
+.yellow-status {
+    font-weight: bold; 
+    color: #facd1d;
+}
+
+.card-element-green {
+    border-left: 20px solid #3dce77;
+    border-radius: 5px; 
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.card-element-yellow {
+    border-left: 20px solid#facd1d;
+    border-radius: 5px; 
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.logo-container > img {
+    height: 6vh;
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+}
